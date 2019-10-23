@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-proper-a11y`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -66,7 +67,7 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
